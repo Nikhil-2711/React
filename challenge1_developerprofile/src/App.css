@@ -1,0 +1,35 @@
+.card{
+  border: 1;
+  width: 400px;
+  height: 500px;
+  border-width: 2px;
+  background-color: rgb(220, 241, 241);
+  margin: 30px;
+}
+
+.title{
+  margin: 20px;
+}
+
+.description{
+  margin: 20px;
+}
+
+.skills{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+
+}
+.skill{
+  padding: 2px 12px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  margin-left: 50px;
+  margin-top: 20px;
+}
