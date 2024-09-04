@@ -1,5 +1,6 @@
 import './App.css';
-import Counter from './components/counter';
+import Counter from './components/counter_v2';
+
 
 function App() {
   return (
